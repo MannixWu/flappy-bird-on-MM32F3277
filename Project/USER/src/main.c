@@ -1,3 +1,12 @@
+/*
+ * @Author: MannixWu
+ * @Date: 2021-07-19 09:23:27
+ * @LastEditTime: 2021-08-08 12:11:20
+ * @LastEditors: Please set LastEditors
+ * @QQ: 3068758340
+ * @Description: 转载修改请注明出处
+ * @FilePath: \flappy bird\Project\USER\src\main.c
+ */
 #include "headfile.h"
 #include "math.h"
 #include <stdlib.h>
@@ -137,6 +146,11 @@ int main()
     }
     return 0;
 }
+/**
+ * @brief: 绘制背景
+ * @param {*}
+ * @return {*}
+ */
 void bird_draw_background()
 {
     for (int y = 0; y < 140; y++)
@@ -161,6 +175,11 @@ void bird_draw_background()
         }
     }
 }
+/**
+ * @brief: 绘制地面
+ * @param {*}
+ * @return {*}
+ */
 void bird_draw_floor()
 {
 
@@ -179,6 +198,12 @@ void bird_draw_floor()
         }
     }
 }
+/**
+ * @brief: 绘制鸟
+ * @param {int} bird_off_x  鸟x坐标
+ * @param {int} bird_off_y  鸟y坐标
+ * @return {*}
+ */
 void bird_draw_body(int bird_off_x, int bird_off_y)
 {
     for (int y = 0; y < 24; y++)
@@ -212,6 +237,13 @@ void bird_draw_body(int bird_off_x, int bird_off_y)
         }
     }
 }
+/**
+ * @brief: 绘制水管
+ * @param {int} pipeTick
+ * @param {int} pipe_offset
+ * @param {int} pipe_space
+ * @return {*}
+ */
 void bird_draw_pipe(int pipeTick, int pipe_offset, int pipe_space)
 {
     for (int y = 0; y < 32; y++)
@@ -275,6 +307,11 @@ void bird_draw_pipe(int pipeTick, int pipe_offset, int pipe_space)
         }
     }
 }
+/**
+ * @brief: 绘制游戏结束ui
+ * @param {*}
+ * @return {*}
+ */
 void bird_draw_gameover()
 {
     for (int y = 0; y < 20; y++)
@@ -293,6 +330,11 @@ void bird_draw_gameover()
         }
     }
 }
+/**
+ * @brief: 绘制记分板
+ * @param {int} score
+ * @return {*}
+ */
 void bird_draw_score(int score)
 {
     int numCount = 0;
@@ -328,6 +370,12 @@ void bird_draw_score(int score)
         scoreNum /= 10;
     }
 }
+
+/**
+ * @brief: 鸟数据初始化
+ * @param {*}
+ * @return {*}
+ */
 void bird_init()
 {
     tick = 0;
@@ -337,6 +385,11 @@ void bird_init()
     birdIsAlive = TRUE;
 }
 
+/**
+ * @brief: 设备硬件初始化
+ * @param {*}
+ * @return {*}
+ */
 void device_init()
 {
     board_init(true);
@@ -352,6 +405,11 @@ void device_init()
     gpio_init(B7, GPI, 1, GPI_PULL_UP);
 }
 
+/**
+ * @brief: 生成随机数
+ * @note rand函数生成次数多了会重复，每次更换种子实现随机
+ * @return {int}    随机数结果
+ */
 int random()
 {
     int temp = rand();
