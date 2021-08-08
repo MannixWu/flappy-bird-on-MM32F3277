@@ -1,11 +1,6 @@
 Dependencies for Project 'MM32F3277', Target 'MM32F3277_Demo': (DO NOT MODIFY !)
-<<<<<<< HEAD
 F (..\USER\src\isr.c)(0x60ECA564)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
-=======
-F (..\USER\src\isr.c)(0x60DDAAED)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
-I (..\..\Libraries\seekfree_libraries\headfile.h)(0x609E8337)
->>>>>>> fc6aea87dd0e1fec635c1e1220d1804d0f1f6054
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
 I (..\..\\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x6047534E)
@@ -95,15 +90,10 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 I (..\USER\inc\isr.h)(0x609FBB22)
-<<<<<<< HEAD
-F (..\USER\src\main.c)(0x60F0343E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\USER\src\main.c)(0x610F515C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
-=======
-F (..\USER\src\main.c)(0x60DE7848)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\Libraries\seekfree_libraries\headfile.h)(0x609E8337)
->>>>>>> fc6aea87dd0e1fec635c1e1220d1804d0f1f6054
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
 I (..\..\\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x6047534E)
@@ -193,14 +183,10 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
 F (.\pid.c)(0x60DD9F5A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
-<<<<<<< HEAD
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
-=======
-I (..\..\Libraries\seekfree_libraries\headfile.h)(0x609E8337)
->>>>>>> fc6aea87dd0e1fec635c1e1220d1804d0f1f6054
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
 I (..\..\\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x6047534E)
@@ -290,14 +276,9 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-<<<<<<< HEAD
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 F (.\image.c)(0x60DE6A87)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\image.o --omf_browse .\objects\image.crf --depend .\objects\image.d)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
-=======
-F (.\image.c)(0x60DE6A87)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\image.o --omf_browse .\objects\image.crf --depend .\objects\image.d)
-I (..\..\Libraries\seekfree_libraries\headfile.h)(0x609E8337)
->>>>>>> fc6aea87dd0e1fec635c1e1220d1804d0f1f6054
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
 I (..\..\\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x6047534E)
@@ -387,8 +368,8 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
-F (..\CODE\res.c)(0x60ECCD62)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\res.o --omf_browse .\objects\res.crf --depend .\objects\res.d)
+I (..\MDK\res.h)(0x610F42E0)
+F (..\CODE\res.c)(0x610F42E0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\res.o --omf_browse .\objects\res.crf --depend .\objects\res.d)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
 I (..\..\\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
@@ -479,8 +460,8 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
-F (.\res.h)(0x60ECCE9B)()
+I (..\MDK\res.h)(0x610F42E0)
+F (.\res.h)(0x610F42E0)()
 F (..\USER\inc\isr.h)(0x609FBB22)()
 F (.\image.h)(0x609E711E)()
 F (.\pid.h)(0x609E83E3)()
@@ -576,7 +557,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 F (..\CODE\speed.c)(0x609FD9E7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\speed.o --omf_browse .\objects\speed.crf --depend .\objects\speed.d)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x60ECCC04)
 I (D:\AAAAAAA       KEIL 5 MDK\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -668,7 +649,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 F (..\..\Libraries\seekfree_libraries\board\board.c)(0x6047534E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
 I (..\..\Libraries\seekfree_libraries\board\board.h)(0x6047534E)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x6047534E)
@@ -1414,7 +1395,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x6047534E)
 I (..\CODE\PWM.h)(0x607690FE)
 I (..\CODE\speed.h)(0x609E84D3)
 I (..\MDK\pid.h)(0x609E83E3)
-I (..\MDK\res.h)(0x60ECCE9B)
+I (..\MDK\res.h)(0x610F42E0)
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_ABSOLUTE_ENCODER.h)(0x6047534E)()
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.c)(0x6047534E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections --signed_chars -I ..\CODE -I ..\USER\src -I ..\USER\inc -I ..\..\Libraries\seekfree_libraries\common -I ..\..\\Libraries\seekfree_libraries\board -I ..\..\Libraries\seekfree_libraries\system -I ..\..\Libraries\seekfree_libraries -I ..\..\Libraries\seekfree_peripheral -I ..\..\Libraries\Device\CMSIS\KEIL_Core -I ..\..\Libraries\Device\MM32F327x\Include -I ..\..\Libraries\Device\MM32F327x\HAL_Lib\Inc -I ..\MDK-I.\RTE\_MM32F3277_Demo-I"D:\AAAAAAA       KEIL 5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="525" -DENABLEFSMC-o .\objects\seekfree_font.o --omf_browse .\objects\seekfree_font.crf --depend .\objects\seekfree_font.d)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x6047534E)
